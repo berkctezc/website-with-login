@@ -1,0 +1,18 @@
+.footer {
+    position: fixed;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+    color: white;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,
+     rgba(2,0,36,1) 0%,
+     rgba(13,115,216,1) 28%, 
+     rgba(15,58,126,1) 77%, 
+     rgba(200,200,200,1) 100%);
+    font-family: 'Titillium Web', sans-serif;
+    margin-top:300px; 
+    display: inline-block;
+  }
