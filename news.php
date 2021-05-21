@@ -2,6 +2,7 @@
 <style>
     .news {
         font-family: 'Titillium Web', sans-serif;
+        columns: 1;
     }
 </style>
 
@@ -20,6 +21,7 @@
 
     <?php else :
     echo '<p style="color:red;">Bu Bölüme Giriş Yapmadan Erişemessiniz</p>';
+    echo '<h1> test heading </h1>'
 endif;
 ?>
 
