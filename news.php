@@ -22,6 +22,7 @@
     <?php else :
     echo '<p style="color:red;">Bu Bölüme Giriş Yapmadan Erişemessiniz</p>';
     echo '<h1> test heading </h1>'
+    echo '<p> test </p>'
 endif;
 ?>
 
