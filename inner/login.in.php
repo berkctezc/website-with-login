@@ -25,7 +25,7 @@ if(isset($_POST['login-submit'])){
             if($row = mysqli_fetch_assoc($result)){
     
                 if($password!=$row['pwdUsers']){
-                    header("Location: ../index.php?error=wrongpwd&girdiginizUserName:".$row['pwdUsers'].'&yanlisGirilenSifreniz:'.$password);
+                    header("Location: ../index.php?error=".'yanlisGirilenSifreniz:'.$password);
                     exit();
                 }
                 else if($password==$row['pwdUsers']){
